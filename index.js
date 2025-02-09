@@ -107,14 +107,14 @@ let quizQuestions = [...questions].sort(() => Math.random() - 0.5);
 let currentIndex = 0;
 let score = 0;
 let userAnswers = {}; // Store user's answers
-// let userName = window.prompt("PLEASE ENTER YOUR NAME TO CONTINUE THE QUIZ 😂🤣😆");
+let userName = window.prompt("PLEASE ENTER YOUR NAME TO CONTINUE THE QUIZ 😂🤣😆");
 
 // Keep asking for the username if it's not entered
-// while(!userName) {
-//     userName = window.prompt("Username cannot be empty. PLEASE ENTER YOUR NAME TO CONTINUE THE QUIZ. 😂🤣😆");
-// } 
+while(!userName) {
+    userName = window.prompt("Username cannot be empty. PLEASE ENTER YOUR NAME TO CONTINUE THE QUIZ. 😂🤣😆");
+} 
 
-// document.getElementById("username").innerText = userName;
+document.getElementById("username").innerText = userName;
 /**
  * Displays the current question and its choices.
  */
