@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> quiz application </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- header seession -->
+
+    <div class="header">
+        <div class="logo">QuIZIZ</div>
+        <div class="remainingquestion"> <span class="level"> <p class="currentnumber" id="currentnumber">2</p> </span> / <span class="remaining" id="remainigNUmber">  30</span> </div>
+        <div class="userprofile"> 
+            <div class="userimage">
+                <img src="./avater.jpg" alt="userprofile" class="profilepic">
+                <span class="username" id="username"> opie chisom </span>
+            </div>
+        </div>
+
+    </div>
+<!-- main seession -->
+ <div class="main">
+    <div class="mainwrapper" id="question-container">
+       
+
+
+        <div class="questions" id="question"> </div>
+        <hr>
+        <div class="quiz-container" id="quiz-container"></div>
+        <div class="options" id="choices">
+            <div class="option" id="optiona"> game  </div>
+            <div class="option" id="optionb"> game  </div>
+            <div class="option" id="optionc"> game  </div>
+            <div class="option" id="optiond"> game  </div>
+        </div>
+        
+        <div class="useractions">
+            <button id="prevButton">Previous</button>
+            <button id="submitButton">Submit</button>
+            <button id="nextButton">Next</button>
+          
+        </div>
+
+
+    </div>
+    <div class="result-container" id="result-container">
+        </div>
+ </div>
+
+
+
+    <!-- footter seession -->
+    <footer class="footter">
+        <h5 class="footertext"> quiz app task learnable 2024</h5>
+    
+    </footer>
+
+
+
+    <script src="index.js"></script>
+  
+</body>
+</html>
