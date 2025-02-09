@@ -66,7 +66,7 @@ body{
 
 .main{
     padding: 20px;
-    width: 40%;
+    width: 60%;
     height: calc(100vh - 100px);
     margin: auto;
 }
@@ -206,3 +206,62 @@ button:active{
 .footertext{
     opacity: 0.4;
 }
+
+
+
+
+/* media screen  */
+
+@media (min-width: 300px) and (max-width: 600px) {
+ body{
+    overflow: scroll;
+ }
+
+ .main{
+    width: 100%;
+    margin-top: 0;
+    
+ }
+
+ .mainwrapper{
+    margin-top: 0;
+    width: 100%;
+ }
+
+ .questions{
+    text-align: center;
+ }
+
+ .option{
+    padding: 5px;
+ }
+}
+
+@media (min-width: 600px) and (max-width: 1050px) {
+    body{
+       overflow: scroll;
+    }
+   
+    .main{
+       width: 100%;
+       margin-top: 0;
+       
+    }
+   
+    .mainwrapper{
+       margin-top: 0;
+       width: 70%;
+    }
+   
+    .questions{
+       text-align: center;
+    }
+   
+    .option{
+       padding: 5px;
+    }
+   }
+   
+
+   
+   
