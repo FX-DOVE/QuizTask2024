@@ -214,20 +214,19 @@ button:active{
 
 @media (min-width: 300px) and (max-width: 600px) {
  body{
-    overflow: scroll;
+    overflow: hidden;
  }
 
  .main{
     width: 100%;
     margin-top: 0;
-    background-color: red;
     
  }
 
  .mainwrapper{
     width: 100%;
     background-color: green;
-    margin: auto;
+    margin: 15px  auto;
  }
 
  .questions{
